@@ -204,11 +204,8 @@ B = [[1, 14],
 
 
 def main():
-     for n in range(0, 16):
-        print(decimal_to_gray_op(n))
-
-
-'''
+     #for n in range(0, 16):
+     #   print(decimal_to_gray_op(n))
     mx.return_rows_columns(A)
     print("\n")
     mx.print_matrix(A)
@@ -222,7 +219,7 @@ def main():
     B_inversion = mx.invert_matrix(B)
     print("\n")
     mx.matrix_dot_matrix(B, B_inversion)
-'''
+
     #pc.percentage_difference(100, 102.5)
     #cm.complex_num_main()
     #decimal_hex(binary_decimal("100011100011"))

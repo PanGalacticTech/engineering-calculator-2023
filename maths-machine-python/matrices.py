@@ -120,7 +120,7 @@ def matrix_dot_matrix(A, B):
                 print(f" column_B: {column_B}")
                 value = 0
                 for j in range(rows_columns_A[1]):
-                    value = value + row_A[j] * column_B[j]
+                    value = round(value + row_A[j] * column_B[j],1)
                 row_out.append(value)
             product.append(row_out)
         print_matrix(product)
