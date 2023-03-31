@@ -1,5 +1,5 @@
-# Master-Electronics-Calculator-2021
- Master electronics calc spreadsheet
+# Everything Engineering Calculator
+Electronics, Mathmatics and Engineering Notes & Calculator Spreadsheet
 
 ## Contains Calculators for:
 
