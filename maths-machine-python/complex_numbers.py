@@ -101,3 +101,6 @@ def plot_xy(x, y):
     #ax.scatter(x,y, s=size, c=color, vmin=0,vmax=100)
     ax.set(xlim=(-8,8),xticks=np.arange(-8,9),ylim=(-8,8), yticks=np.arange(-8,9))
     plt.show()
+
+
+complex_num_main()
