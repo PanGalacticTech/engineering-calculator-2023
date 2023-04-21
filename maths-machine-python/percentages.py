@@ -12,3 +12,4 @@ def percentage_difference(a, b):
     return pc_diff
 
 
+percentage_difference(5, 6)
