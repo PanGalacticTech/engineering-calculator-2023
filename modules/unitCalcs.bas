@@ -1,5 +1,5 @@
-Attribute VB_Name = "Module3"
-Function UnitCalc(VALUE As Double, NAME As String)
+Attribute VB_Name = "unitCalc"
+Function unitCalc(VALUE As Double, NAME As String)
 Dim Tera As String
 Tera = "T"
 Giga = "G"
@@ -39,7 +39,7 @@ firstChar = Left(NAME, 1)
         Case Else
             OUTPUT = VALUE
         End Select
-    UnitCalc = OUTPUT
+    unitCalc = OUTPUT
 End Function
 
 Function UnitGet(VALUE As Double, UNITBASE As String)
